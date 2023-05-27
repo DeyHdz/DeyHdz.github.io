@@ -1,8 +1,8 @@
 /* Barra de navegacion */
-/*Barra de hasta arriba*/
+
 .navbar {
   padding: 2rem;
-  background-color: #eec0fa;
+  background-color: #dee4f1;
 }
 
 .navbar-collapse {
@@ -26,11 +26,11 @@ h1 {
 /* Conoce a DEY */
 .seccion-oscura {
   color: rgba(255, 255, 255, 0.959);
-  background-color: #d966f3;
+  background-color: #91aeda;
 }
 /* Desarrollo Web, Articulos, Estudios */
 .seccion-clara {
-  color: rgb(133, 11, 96);
+  color: #29405d;
   background-color: rgb(255, 255, 255);
 }
 
@@ -40,9 +40,10 @@ h1 {
   font-family: 'Rubik Dirt', cursive;
 }
 
+/* Algunos proyectos y Algunas referencias*/
 .seccion-descripcion {
   font-size: 1.2rem;
-  color: #a82f94;
+  color: #0a2d5c;
 }
 
 .seccion-texto {
@@ -53,9 +54,9 @@ h1 {
   font-size: 1.1rem;
   margin: 20px;
 }
-
+/* proyectos mas recientes y Experiencia*/
 .texto-negro {
-  color: rgb(140, 18, 156);
+  color: #3e9af9;
 }
 
 .texto-blanco {
@@ -63,12 +64,12 @@ h1 {
 }
 
 /* Seccion Hero */
-
+/* Hola soy Deissy */
 .hero {
-  background-color: #e5f5ff;
+  background-color: #ffffff;
   min-height: 450px;
   text-align: center;
-  color: rgb(231, 49, 162);
+  color: #3e9af9;
 }
 
 .hero-principal {
@@ -79,12 +80,11 @@ h1 {
   width: 200px;
   height: 200px;
   margin: 20px;
-
 }
 
 .hero-principal h2 {
   font-size: 1.5rem;
-  color: #e7dada;
+  color: rgb(255, 255, 255);
 }
 
 /* Sobre mi */
@@ -104,26 +104,26 @@ h1 {
 .experiencia {
   padding: 40px 40px 60px 40px;
 }
-
+/* Experiencia Contorno */
 .experiencia .columna {
   padding: 20px;
-  border: 2px solid #7716574d;
+  border: 2px solid #2917ca4d;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: space-evenly;
   transition: all 0.2s ease-in;
 }
-
+/* Color al pasar la flecha */
 .experiencia .columna:hover {
   color: rgb(255, 255, 255);
-  background-color: #a3499f;
+  background-color: #7dbdc3;
 }
-
+/* Color figura iconos */
 .experiencia i {
   font-size: 2.5rem;
-  color: #a10ca7;
-  background-color: #f8a1d4;
+  color: #5b8eda;
+  background-color: #090e41;
   padding: 8px 19px;
   border-radius: 50%;
 }
@@ -197,12 +197,12 @@ h1 {
 }
 
 .overlay i {
-  color: rgb(209, 115, 178);
+  color: #1c41a6;
   font-size: 60px;
   margin: 10px;
 }
 
-/* Articulos */
+/* Hobbies */
 
 .articulos {
   min-height: 500px;
@@ -219,7 +219,7 @@ h1 {
   font-weight: bold;
 }
 
-/* Testimonios */
+/* Referencias */
 
 .testimonios {
   padding: 40px 40px 80px 40px;
@@ -267,10 +267,10 @@ h1 {
 .testimonio-footer .cliente {
   font-size: 1.2rem;
 }
-
+/* Puestos de las personas */
 .testimonio-info .cargo {
   font-size: 0.9rem;
-  color: #9e3b91;
+  color: #0a418d;
 }
 
 /* Contacto */
@@ -283,7 +283,7 @@ h1 {
 
 .contacto .rectangulo {
   margin-top: -5rem;
-  background-color: #ac63c9;
+  background-color: #98a7c5;
   border-radius: 10px;
   box-shadow: 0px 1px 4px 1px white;
 }
@@ -312,7 +312,7 @@ h1 {
 
 .contacto button:hover {
   background-color: white;
-  color: black;
+  color: rgb(4, 21, 117);
 }
 
 .contacto button i {
@@ -365,16 +365,16 @@ footer {
 
 .iconos-redes-sociales a:hover {
   background-color: white;
-  border: 2px solid rgb(126, 11, 120);
+  border: 2px solid rgb(40, 63, 216);
 }
 
 .iconos-redes-sociales a:hover i {
-  color: black;
+  color: #1c41a6;
 }
 
 .derechos-de-autor {
   font-size: 15px;
-  color: #e0dfdf;
+  color: #ebebebfa;
   padding: 20px;
 }
 
